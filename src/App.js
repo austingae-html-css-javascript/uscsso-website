@@ -29,10 +29,21 @@ function App() {
           </div>
 
           <div className='nav-bar__right-container'>
-            <FontAwesomeIcon className='nav-bar__hamburger-menu' icon={faBars} size="2x" /> 
+            <button className='nav-bar__hamburger-menu-button' onClick={() => {
+              document.getElementsByTagName("menu")[0].style.cssText = "left: 0%; transition-property: left; transition-duration: 1s;";
+            }}><FontAwesomeIcon className='nav-bar__hamburger-menu-icon' icon={faBars} size="2x" /></button>
           </div>
         </div>
       </nav>
+
+      <menu>
+        <div className='menu-container'>
+          <Link className='menu__link' to="/">Home</Link>
+          <Link className='menu__link' to="/events">Events</Link>
+          <Link className='menu__link' to="/our-work">Our Work</Link>
+          <Link className='menu__link' to="/about">About</Link>
+        </div>
+      </menu>
 
       <Routes>
         <Route path="/" element={<Home />}></Route>
