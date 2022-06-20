@@ -38,10 +38,10 @@ function App() {
 
       <menu>
         <div className='menu-container'>
-          <Link className='menu__link' to="/">Home</Link>
-          <Link className='menu__link' to="/events">Events</Link>
-          <Link className='menu__link' to="/our-work">Our Work</Link>
-          <Link className='menu__link' to="/about">About</Link>
+          <Link className='menu__link' to="/" onClick={() => {document.getElementsByTagName("menu")[0].style.cssText = "left: -100%; transition-property: left; transition-duration: 1s;";}}>Home</Link>
+          <Link className='menu__link' to="/events" onClick={() => {document.getElementsByTagName("menu")[0].style.cssText = "left: -100%; transition-property: left; transition-duration: 1s;";}}>Events</Link>
+          <Link className='menu__link' to="/our-work" onClick={() => {document.getElementsByTagName("menu")[0].style.cssText = "left: -100%; transition-property: left; transition-duration: 1s;";}}>Our Work</Link>
+          <Link className='menu__link' to="/about" onClick={() => {document.getElementsByTagName("menu")[0].style.cssText = "left: -100%; transition-property: left; transition-duration: 1s;";}}>About</Link>
         </div>
       </menu>
 
