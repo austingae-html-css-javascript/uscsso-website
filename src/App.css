@@ -1,27 +1,4 @@
-:root {
-  --blue-color: rgb(0,40,104);
-  --red-color: rgb(255,63,63);
-  --light-black-color: rgb(43,43,43);
-  --black-color: rgb(0,0,0);
-  --light-white-color: rgb(250,250,250);
-  --light-gray-color: rgb(213,213,213);
-  --gray-color: rgb(170,170,170);
 
-  --facebook-color: rgb(64,100,173);
-  --linkedin-color: rgb(1,118,181);
-  --instagram-color: rgb(247,83,84);
-  --twitter-color: rgb(30,155,240);
-
-  --primary-font: 'Montserrat', sans-serif;
-
-  
-}
-
-* {
-  box-sizing: content-box;
-  margin: 0rem;
-  font-family: var(--primary-font);
-}
 
 .nav-bar {
   width: auto;
@@ -52,12 +29,13 @@
 }
 
 .nav-bar__org-name {
+  font-size: 2rem;
   font-weight: 400;
   color: var(--blue-color);
 }
 
 .nav-bar__org-logo {
-  width: 2.5rem;
+  width: 3.2rem;
 }
 
 .nav-bar__right-container {
@@ -75,6 +53,11 @@
   color: var(--black-color);
 }
 
+.nav-bar__link {
+  display: none;
+}
+
+/*<menu>*/
 menu {
   position: fixed;
   width: 100%;
@@ -91,31 +74,26 @@ menu {
 }
 
 
-.menu-container {
-  width: auto;
-}
-
 .menu-container__x-mark-button {
   position: absolute;
   top: 10px;
   right: 20px;
 }
+
+
 .menu-container__main-body {
   display: flex;
   flex-direction: column;
   align-items: center;
 
   margin-top: 8rem;
-
 }
+
 .menu-container__links-container {
   display: flex;
   flex-direction: column;
 }
 
-.menu-container--margin-right {
-  margin-right: 0.5rem;
-}
 .menu-container__link {
   color: var(--light-white-color);
   text-decoration: none;
@@ -124,6 +102,10 @@ menu {
 
 .menu-container__link:hover {
   color: var(--red-color);
+}
+
+.menu-container--margin-right {
+  margin-right: 0.5rem;
 }
 
 .menu-container__social-media-container {
@@ -144,6 +126,32 @@ menu {
 
 .menu-container__twitter-icon {
   color: var(--twitter-color);
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar__hamburger-menu-button {
+    display: none;
+  }
+
+  .nav-bar__link {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+
+    font-size: 1.3rem;
+  }
+
+  .nav-bar__link:hover {
+    color: var(--red-color);
+  }
+
+  .nav-bar__link--margin-right {
+    margin-right: 1.5rem;
+  }
+
+
+
+
 }
  
 

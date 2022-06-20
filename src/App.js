@@ -6,6 +6,10 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faLinkedin, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
+/*CSS FILES*/
+/*Global.css*/
+import './Global.css';
+
 /*App.css*/
 import './App.css';
 
@@ -17,7 +21,6 @@ import Home from "./Pages/Home";
 import Events from "./Pages/Events";
 import OurWork from "./Pages/OurWork";
 import About from "./Pages/About";
-
 
 function App() {
   return (
@@ -33,6 +36,11 @@ function App() {
             <button className='nav-bar__hamburger-menu-button' onClick={() => {
               document.getElementsByTagName("menu")[0].style.cssText = "left: 0%; transition-property: left; transition-duration: 1s;";
             }}><FontAwesomeIcon className='nav-bar__hamburger-menu-icon' icon={ faBars } size="2x" /></button>
+
+            <Link className='nav-bar__link nav-bar__link--margin-right' to="/">Home</Link>
+            <Link className='nav-bar__link nav-bar__link--margin-right' to="/events">Events</Link>
+            <Link className='nav-bar__link nav-bar__link--margin-right' to="/our-work">Our Work</Link>
+            <Link className='nav-bar__link' to="/about">About</Link>
           </div>
         </div>
       </nav>
@@ -56,9 +64,6 @@ function App() {
              <a href ="https://twitter.com/uscsso"><FontAwesomeIcon className="menu-container__social-media-icon menu-container__twitter-icon" icon={ faTwitter } size="2x" /></a>
             </div>
           </div>
-          
-
-         
         </div>
       </menu>
 
