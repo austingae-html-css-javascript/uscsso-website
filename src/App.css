@@ -1,0 +1,65 @@
+:root {
+  --blue-color: rgb(0,40,104);
+  --red-color: rgb(255,63,63);
+  --light-black-color: rgb(43,43,43);
+  --black-color: rgb(0,0,0);
+  --light-white-color: rgb(250,250,250);
+  --light-gray-color: rgb(213,213,213);
+  --gray-color: rgb(170,170,170);
+
+  --primary-font: 'Montserrat', sans-serif;
+}
+
+* {
+  box-sizing: content-box;
+  margin: 0rem;
+  font-family: var(--primary-font);
+}
+
+.nav-bar {
+  width: auto;
+  padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+  /*
+  Parent Div's Width = Child Div's Width + Padding + Border + Margin
+  375px = width: auto, so (327px) + (24px + 24px) + 0px + 0px
+  */
+
+  /*flexbox*/
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+
+  /*border-bottom*/
+  border-bottom-style: solid;
+  border-color: var(--blue-color);
+  border-width: 0.3rem;
+
+  /*color*/
+  color: var(--light-white-color);
+}
+
+.nav-bar__left-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-bar__org-name {
+  font-weight: 400;
+  color: var(--blue-color);
+}
+
+.nav-bar__org-logo {
+  width: 2.5rem;
+}
+
+.nav-bar__right-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-bar__hamburger-menu {
+  color: var(--black-color);
+}
+

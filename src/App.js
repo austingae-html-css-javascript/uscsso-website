@@ -18,7 +18,6 @@ import OurWork from "./Pages/OurWork";
 import About from "./Pages/About";
 
 
-
 function App() {
   return (
     <Router>
@@ -34,7 +33,7 @@ function App() {
           </div>
         </div>
       </nav>
-      
+
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/events" element={<Events />}></Route>
@@ -83,6 +82,8 @@ Step 1: create the navigation bar
             - However, Parent Div's Width != Inline Element's Width+Padding+Border+Margin
 */
 
+
+
 /*
 FontAwesome Download Process:
 1) npm i --save @fortawesome/fontawesome-svg-core
@@ -94,4 +95,5 @@ FontAwesome Download Process:
 4) import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 5) import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
+Styling with FontAwesome: https://fontawesome.com/docs/web/use-with/react/style
 */
