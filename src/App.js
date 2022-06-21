@@ -18,12 +18,12 @@ import logo from "./Images/uscsso-logo.png";
 
 /*Components*/
 import Home from "./Pages/Home";
-import Events from "./Pages/Events";
-import OurWork from "./Pages/OurWork";
+import Events from "./Pages/Events/Events";
+import OurWork from "./Pages/OurWork/OurWork";
 import About from "./Pages/About";
 
-import Articles from "./Pages/Articles";
-import Projects from "./Pages/Projects";
+import Articles from "./Pages/OurWork/Articles/Articles";
+import Projects from "./Pages/OurWork/Projects/Projects";
 
 function App() {
   return (

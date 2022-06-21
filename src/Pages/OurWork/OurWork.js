@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Global.css";
+import "../../Global.css";
 import "./OurWork.css";
 
 import { useNavigate } from 'react-router-dom';

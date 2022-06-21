@@ -1,0 +1,68 @@
+img {
+  width: 100px;
+}
+
+.event {
+  width: auto;
+  margin: 0rem 1.3rem 0rem 1.3rem;
+  /*
+  Parent Div's Width = Child Div's Width + Padding + Border + Margin
+  375px = width: auto, so (333.4px) + (20.8px + 20.8px) + 0px + 0px
+  */
+}
+
+.event__image-container {
+  width: auto;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  /*
+  Parent Div's Width = Child Div's Width + Padding + Border + Margin
+  333.4px = width: auto, so (317.4px) + (8px + 8px) + 0px + 0px
+  */
+  background-color: var(--light-black-color);
+}
+
+.event__image {
+  width: 100%;
+  /*
+  Parent Div's Width = 317.4px.
+  Image's Width = 100% of Parent Div's Width, so 317.4px.
+  */
+}
+
+.event__description-container {
+  width: auto;
+  padding: 0rem 0.5rem 0.5rem 0.5rem;
+  background: var(--light-black-color);
+}
+
+.event__date {
+  font-size: 13px;
+  color: var(--light-light-white-color);
+}
+
+.event__location {
+  font-size: 13px;
+  color: var(--light-light-white-color);
+}
+
+.event__title {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--white-color);
+
+  margin-top: 0.7rem;
+  margin-bottom: 1.3rem;
+}
+
+.event__learn-more-button {
+  color: white;
+  padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+  background-color: var(--red-color);
+  border-style: solid;
+  border-color: var(--red-color);
+  border-radius: 0.5rem;
+
+  /*Center the Button*/
+  display: block;
+  margin: 0rem auto 0rem auto;
+}
