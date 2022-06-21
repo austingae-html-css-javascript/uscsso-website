@@ -19,7 +19,6 @@ const Events = () => {
         {/*UPCOMING EVENTS*/}
         <h2 className='event-container__title'>Upcoming Events</h2>
         <hr className='line'></hr>
-        <EventTemplate image={EventSix} date="April 9, 11:00 AM - 5:00 PM" location="Funger Hall" title="Rising Tides Simulation" />
 
         {/*PAST EVENTS*/}
         <h2 className='event-container__title'>Past Events</h2>
