@@ -1,0 +1,19 @@
+.event-container {
+  margin-top: 1rem;
+}
+.event-container__title{
+  text-align: center;
+  font-weight: 500;
+}
+
+.line {
+  width: 80%;
+  margin: 0rem auto 0rem auto;
+  border-inline: none;
+  /*
+  Parent Div's Width = Block Element's Width + Padding + Border + Margin
+  375px = width: 80%, so (300px) + 0px + 0px + (37.5px + 37.5px)
+  */
+
+  margin-bottom: 1rem;
+}

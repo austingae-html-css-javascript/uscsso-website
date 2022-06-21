@@ -1,29 +1,29 @@
 import React from 'react'
 
-import "../Global.css";
+import "../../../Global.css";
 import "./Articles.css";
 
 import ArticleTemplate from './ArticleTemplate';
 
 /*Article Images*/
-import ImageTen from "../Images/OurWorkImages/us-china-russia-ukraine-war.webp";
-import ImageNine from "../Images/OurWorkImages/energy-planet.webp";
-import ImageEight from "../Images/OurWorkImages/politics-of-energy.webp";
-import ImageSeven from "../Images/OurWorkImages/chinese-military.webp";
-import ImageSix from "../Images/OurWorkImages/trump.webp";
-import ImageFive from "../Images/OurWorkImages/xi.webp";
-import ImageFour from "../Images/OurWorkImages/tsmc.webp";
-import ImageThree from "../Images/OurWorkImages/huawei.webp";
-import ImageOne from "../Images/OurWorkImages/uyghur.webp";
+import ImageTen from "../../../Images/OurWorkImages/us-china-russia-ukraine-war.webp";
+import ImageNine from "../../../Images/OurWorkImages/energy-planet.webp";
+import ImageEight from "../../../Images/OurWorkImages/politics-of-energy.webp";
+import ImageSeven from "../../../Images/OurWorkImages/chinese-military.webp";
+import ImageSix from "../../../Images/OurWorkImages/trump.webp";
+import ImageFive from "../../../Images/OurWorkImages/xi.webp";
+import ImageFour from "../../../Images/OurWorkImages/tsmc.webp";
+import ImageThree from "../../../Images/OurWorkImages/huawei.webp";
+import ImageOne from "../../../Images/OurWorkImages/uyghur.webp";
 
 /*Contributor Profile Picture*/
-import USCSSO from "../Images/uscsso-logo.png";
-import AnneLee from "../Images/Contributors/anne-lee.webp";
-import DominicNozzarella from "../Images/Contributors/dominic-nozzarella.webp";
-import AndrewJHarding from "../Images/Contributors/andrew-j-harding.webp";
-import NicoleWei from "../Images/Contributors/nicole-wei.webp"
-import DylanShepherd from "../Images/Contributors/dylan-shepherd.webp"
-import EmilyZimmerman from "../Images/Contributors/emily-zimmerman.webp"
+import USCSSO from "../../../Images/uscsso-logo.png";
+import AnneLee from "../../../Images/Contributors/anne-lee.webp";
+import DominicNozzarella from "../../../Images/Contributors/dominic-nozzarella.webp";
+import AndrewJHarding from "../../../Images/Contributors/andrew-j-harding.webp";
+import NicoleWei from "../../../Images/Contributors/nicole-wei.webp"
+import DylanShepherd from "../../../Images/Contributors/dylan-shepherd.webp"
+import EmilyZimmerman from "../../../Images/Contributors/emily-zimmerman.webp"
 
 const Articles = () => {
   return (
