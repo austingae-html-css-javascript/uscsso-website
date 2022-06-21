@@ -22,6 +22,9 @@ import Events from "./Pages/Events";
 import OurWork from "./Pages/OurWork";
 import About from "./Pages/About";
 
+import Articles from "./Pages/Articles";
+import Projects from "./Pages/Projects";
+
 function App() {
   return (
     <Router>
@@ -72,6 +75,9 @@ function App() {
         <Route path="/events" element={<Events />}></Route>
         <Route path="/our-work" element={<OurWork />}></Route>
         <Route path="/about" element={<About />}></Route>
+
+        <Route path="/our-work/articles" element={<Articles />}></Route>
+        <Route path="/our-work/projects" element={<Projects />}></Route>
       </Routes>
     </Router>
   );

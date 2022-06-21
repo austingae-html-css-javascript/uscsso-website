@@ -1,0 +1,58 @@
+
+.article {
+  display: flex;
+  flex-direction: column;
+}
+
+.article__left-container {
+  width: auto;
+  padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.article__image {
+  width: 100%;
+}
+
+.article__right-container {
+  width: auto;
+  padding: 0rem 1rem 1rem 1rem;
+
+  /*
+  Parent Div's Width = Child Div's Width + Padding + Border + Margin
+  375px = width: auto, so (343px) + (16px + 16px)
+  */
+
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+
+.article__image-container {
+  margin-right: 1rem;
+}
+
+.article__author-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+}
+
+.article__author-name {
+  font-size: 12px;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.article__date-and-min-to-read {
+  font-size: 12px;
+  margin-bottom: 0.5rem;
+}
+
+.article__title {
+  font-size: 20px;
+  margin-bottom: 0.2rem;
+}
+
+.article__short-description {
+  font-size: 12px;
+}

@@ -1,0 +1,39 @@
+.our-work {
+  width: auto;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  /*
+  Parent Div's Width = Child Div's Width + Padding + Border + Margin
+  375px = width: auto, so (327px) + (24px + 24px) + 0px + 0px
+  */
+}
+
+.our-work__title {
+  text-align: center;
+  font-size: 1.8rem;
+
+  margin-bottom: 2rem;
+}
+
+.our-work__articles-projects-container {
+  text-align: center;
+}
+
+.our-work__articles-button {
+  color: var(--light-white-color);
+  background-color: var(--red-color);
+  border: none;
+  padding: 0.7rem 1.7rem 0.7rem 1.7rem;
+  border-radius: 10px;
+}
+
+.our-work__articles-button--margin-right {
+  margin-right: 4rem;
+}
+
+.our-work__projects-button {
+  color: var(--light-white-color);
+  background-color: var(--blue-color);
+  border: none;
+  padding: 0.7rem 1.7rem 0.7rem 1.7rem;
+  border-radius: 10px;
+}
