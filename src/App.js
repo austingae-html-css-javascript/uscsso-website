@@ -27,7 +27,7 @@ import Projects from "./Pages/OurWork/Projects/Projects";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/uscsso-website">
       <nav>
         <div className='nav-bar'>
           <div className='nav-bar__left-container'>
