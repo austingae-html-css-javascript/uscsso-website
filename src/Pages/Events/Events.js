@@ -19,7 +19,7 @@ const Events = () => {
         {/*UPCOMING EVENTS*/}
         <h2 className='event-container__title'>Upcoming Events</h2>
         <hr className='line'></hr>
-
+        
         {/*PAST EVENTS*/}
         <h2 className='event-container__title'>Past Events</h2>
         <hr className='line'></hr>
