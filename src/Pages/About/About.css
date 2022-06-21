@@ -1,3 +1,5 @@
+/*OUR STORY*/
+
 .our-story {
   width: 360px;
   margin: auto;
@@ -51,6 +53,22 @@
   width: 110px;
 }
 
-.meet-our-team {
+/*MEET OUR TEAM*/
+.meet-our-team__title {
+  text-align: center;
+  margin: 1rem 0rem 0.5rem 0rem;
+}
 
+.meet-our-team__title--large-size {
+  font-size: 30px;
+}
+
+.meet-our-team__description {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
+.meet-our-team-red-color {
+  color: var(--red-color);
 }

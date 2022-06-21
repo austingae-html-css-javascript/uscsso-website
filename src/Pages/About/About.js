@@ -197,7 +197,10 @@ const About = () => {
 
 
 
-  ]
+  ];
+
+  const joinOurTeamLink = "https://docs.google.com/forms/d/e/1FAIpQLScoH_OTWSOG2o_R7_bIhHXH6zzmzeXrva6OETdJTxGPecWKAg/viewform"
+
   return (
     <main>
       <section className='our-story'>
@@ -213,7 +216,10 @@ const About = () => {
       </section>
 
       <section className='meet-our-team'>
-        <h1>Meet Our Team</h1>
+        <h1 className='meet-our-team__title meet-our-team__title--large-size'>MEET OUR TEAM</h1>
+        
+        <h2 className='meet-our-team__title meet-our-team-red-color'>Operations</h2>
+        <p className='meet-our-team__description meet-our-team-red-color'>Manages all USCSSO behind-the-scene logistics. Apply to join our team <span><a className='meet-our-team-red-color' href={joinOurTeamLink}>here</a></span>.</p>
         <TeamMemberTemplateMobileVersion 
         image={teamMemberList[0].image}
         name={teamMemberList[0].name} 
@@ -249,6 +255,9 @@ const About = () => {
           major={teamMemberList[4].major} 
           role={teamMemberList[4].role}
         />
+
+        <h2 className='meet-our-team__title meet-our-team-red-color'>Communications Team</h2>
+        <p className='meet-our-team__description meet-our-team-red-color'>Builds and manages all USCSSO platforms. Apply to join our team <span><a className=' meet-our-team-red-color' href={joinOurTeamLink}>here</a></span>.</p>
         <TeamMemberTemplateMobileVersion 
           image={teamMemberList[5].image}
           name={teamMemberList[5].name} 
@@ -262,7 +271,10 @@ const About = () => {
           year={teamMemberList[6].year} 
           major={teamMemberList[6].major} 
           role={teamMemberList[6].role}
-        />                
+        />              
+
+        <h2 className='meet-our-team__title meet-our-team-red-color'>Academic Engagement Team</h2>  
+        <p className='meet-our-team__description meet-our-team-red-color'>Researches, analyzes, and discusses U.S.-China relations, forming the bulk of the USCSSO’s academic output. Apply to join our team <span><a className='meet-our-team-red-color'href={joinOurTeamLink}>here</a></span>.</p>
         <TeamMemberTemplateMobileVersion 
           image={teamMemberList[7].image}
           name={teamMemberList[7].name} 
