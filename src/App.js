@@ -21,7 +21,7 @@ import logo from "./Images/uscsso-logo.png";
 import Home from "./Pages/Home";
 import Events from "./Pages/Events/Events";
 import OurWork from "./Pages/OurWork/OurWork";
-import About from "./Pages/About";
+import About from "./Pages/About/About";
 
 import Articles from "./Pages/OurWork/Articles/Articles";
 import Projects from "./Pages/OurWork/Projects/Projects";
