@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/uscsso-website/static/css/main.5f3d131b.css",
-    "main.js": "/uscsso-website/static/js/main.7fefa81c.js",
+    "main.js": "/uscsso-website/static/js/main.00a224fd.js",
     "static/js/787.44b4c574.chunk.js": "/uscsso-website/static/js/787.44b4c574.chunk.js",
     "static/media/energy-planet.webp": "/uscsso-website/static/media/energy-planet.417cc360b50135f04974.webp",
     "static/media/us-china-russia-ukraine-war.webp": "/uscsso-website/static/media/us-china-russia-ukraine-war.1ac434a76b7c91e40f42.webp",
@@ -27,11 +27,11 @@
     "static/media/uscsso-logo.png": "/uscsso-website/static/media/uscsso-logo.36189177c0b730c22598.png",
     "index.html": "/uscsso-website/index.html",
     "main.5f3d131b.css.map": "/uscsso-website/static/css/main.5f3d131b.css.map",
-    "main.7fefa81c.js.map": "/uscsso-website/static/js/main.7fefa81c.js.map",
+    "main.00a224fd.js.map": "/uscsso-website/static/js/main.00a224fd.js.map",
     "787.44b4c574.chunk.js.map": "/uscsso-website/static/js/787.44b4c574.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f3d131b.css",
-    "static/js/main.7fefa81c.js"
+    "static/js/main.00a224fd.js"
   ]
 }
