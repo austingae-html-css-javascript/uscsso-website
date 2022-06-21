@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/uscsso-website/static/css/main.c68b6333.css",
-    "main.js": "/uscsso-website/static/js/main.fd8441ee.js",
+    "main.css": "/uscsso-website/static/css/main.7d482091.css",
+    "main.js": "/uscsso-website/static/js/main.e4096b4d.js",
     "static/js/787.44b4c574.chunk.js": "/uscsso-website/static/js/787.44b4c574.chunk.js",
     "static/media/energy-planet.webp": "/uscsso-website/static/media/energy-planet.417cc360b50135f04974.webp",
     "static/media/us-china-russia-ukraine-war.webp": "/uscsso-website/static/media/us-china-russia-ukraine-war.1ac434a76b7c91e40f42.webp",
@@ -43,12 +43,12 @@
     "static/media/nick-camargo.webp": "/uscsso-website/static/media/nick-camargo.71e756ea29439a581960.webp",
     "static/media/uscsso-logo.png": "/uscsso-website/static/media/uscsso-logo.36189177c0b730c22598.png",
     "index.html": "/uscsso-website/index.html",
-    "main.c68b6333.css.map": "/uscsso-website/static/css/main.c68b6333.css.map",
-    "main.fd8441ee.js.map": "/uscsso-website/static/js/main.fd8441ee.js.map",
+    "main.7d482091.css.map": "/uscsso-website/static/css/main.7d482091.css.map",
+    "main.e4096b4d.js.map": "/uscsso-website/static/js/main.e4096b4d.js.map",
     "787.44b4c574.chunk.js.map": "/uscsso-website/static/js/787.44b4c574.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c68b6333.css",
-    "static/js/main.fd8441ee.js"
+    "static/css/main.7d482091.css",
+    "static/js/main.e4096b4d.js"
   ]
 }
