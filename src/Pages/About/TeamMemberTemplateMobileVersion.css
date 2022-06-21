@@ -1,0 +1,39 @@
+.team-member {
+  width: min(95%, 400px);
+  margin: 0rem auto 0rem auto;
+
+  /*
+  Parent Div's Width = Parent Div's Width + Padding + Border + Margin
+  375px = 356.25px + 0px + 0px + margin: 0rem auto 0rem auto, so (9.375px + 9.375px) 
+  */
+
+  display: flex;
+  flex-direction: row;
+
+  /*Spacing Between .team-member*/
+  margin-bottom: 2rem;
+}
+
+.team-member__image {
+  width: 100px;
+  display: block;
+
+  border-radius: 40px;
+}
+
+.team-member__description-container {
+  width: auto;
+  padding: 0.3rem 0.5rem 0.5rem 1.5rem;
+}
+
+.team-member__name {
+  margin-bottom: 1rem;
+}
+
+.team-member--font-size-large {
+  font-size: 20px;
+}
+
+.team-member--font-size-small {
+  font-size: 13px;
+}
