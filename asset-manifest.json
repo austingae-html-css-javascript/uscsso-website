@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/uscsso-website/static/css/main.a8543a89.css",
-    "main.js": "/uscsso-website/static/js/main.39bcfc61.js",
+    "main.css": "/uscsso-website/static/css/main.69f20cf7.css",
+    "main.js": "/uscsso-website/static/js/main.09d49e8b.js",
     "static/js/787.44b4c574.chunk.js": "/uscsso-website/static/js/787.44b4c574.chunk.js",
     "static/media/energy-planet.webp": "/uscsso-website/static/media/energy-planet.417cc360b50135f04974.webp",
     "static/media/us-china-russia-ukraine-war.webp": "/uscsso-website/static/media/us-china-russia-ukraine-war.1ac434a76b7c91e40f42.webp",
@@ -11,13 +11,13 @@
     "static/media/uscsso-spring-conference.webp": "/uscsso-website/static/media/uscsso-spring-conference.831482a33b7f7e015635.webp",
     "static/media/trump.webp": "/uscsso-website/static/media/trump.c53adc4c6d898623746c.webp",
     "static/media/climate-policy.webp": "/uscsso-website/static/media/climate-policy.2885991aa2a7cf84415c.webp",
+    "static/media/summer-dog.jpg": "/uscsso-website/static/media/summer-dog.7bc8b55640706c00d242.jpg",
     "static/media/aedan-yohannan.webp": "/uscsso-website/static/media/aedan-yohannan.7fe95a471442a6e44a21.webp",
     "static/media/tsmc.webp": "/uscsso-website/static/media/tsmc.9660a05fbbbd56237636.webp",
     "static/media/huawei.webp": "/uscsso-website/static/media/huawei.4b9298a8bf1e19b9c7fc.webp",
     "static/media/uyghur.webp": "/uscsso-website/static/media/uyghur.9ba4c31004b5761ce03d.webp",
     "static/media/rising-tides-simulation.webp": "/uscsso-website/static/media/rising-tides-simulation.ef3805c8d7b321f74f24.webp",
     "static/media/southeast-asia.webp": "/uscsso-website/static/media/southeast-asia.df708c3f909c402cf892.webp",
-    "static/media/kim-tae-ri.jpg": "/uscsso-website/static/media/kim-tae-ri.e3c1292842b9714bdb98.jpg",
     "static/media/energy.webp": "/uscsso-website/static/media/energy.a88351a4ac22088ac99f.webp",
     "static/media/zack-rosenfeld.webp": "/uscsso-website/static/media/zack-rosenfeld.9d1517cc793fe1f55677.webp",
     "static/media/politics-of-energy.webp": "/uscsso-website/static/media/politics-of-energy.daaafdff4a5188c35a42.webp",
@@ -44,12 +44,12 @@
     "static/media/nick-camargo.webp": "/uscsso-website/static/media/nick-camargo.71e756ea29439a581960.webp",
     "static/media/uscsso-logo.png": "/uscsso-website/static/media/uscsso-logo.36189177c0b730c22598.png",
     "index.html": "/uscsso-website/index.html",
-    "main.a8543a89.css.map": "/uscsso-website/static/css/main.a8543a89.css.map",
-    "main.39bcfc61.js.map": "/uscsso-website/static/js/main.39bcfc61.js.map",
+    "main.69f20cf7.css.map": "/uscsso-website/static/css/main.69f20cf7.css.map",
+    "main.09d49e8b.js.map": "/uscsso-website/static/js/main.09d49e8b.js.map",
     "787.44b4c574.chunk.js.map": "/uscsso-website/static/js/787.44b4c574.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8543a89.css",
-    "static/js/main.39bcfc61.js"
+    "static/css/main.69f20cf7.css",
+    "static/js/main.09d49e8b.js"
   ]
 }
