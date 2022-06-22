@@ -7,15 +7,15 @@ So, if you want to change the upcoming event, then change this component.
 import React from 'react'
 
 import EventTemplate from './Pages/Events/EventTemplate';
-import UpcomingEventImage from "./Images/EventsImages/kim-tae-ri.jpg";
+import UpcomingEventImage from "./Images/EventsImages/summer-dog.jpg";
 
 const UpComingEvent = () => {
   return (
     <EventTemplate 
     image={UpcomingEventImage}
-    date="August 29, 2002 8:00 AM - 12:00"
-    location="South Korea" 
-    title="Mr. Sunshine" />
+    date="May - August"
+    location="Washington DC" 
+    title="Have a Nice Summer!" />
   )
 }
 
