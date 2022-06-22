@@ -19,8 +19,8 @@ const Home = () => {
           <h4 className='org__short-description'>A platform for nonpartisan, objective, and student-centered research, analysis, and discussion of Sino-American competition.</h4>
           <div className='org__video-container'>
             <ReactPlayer className="org__video"
-            width="230px" 
-            height="140px"
+            width="320px" 
+            height="180px"
             controls 
             url="https://video.wixstatic.com/video/679ced_2896021dfcc843fcb56d2d97608ece36/1080p/mp4/file.mp4"
             />
