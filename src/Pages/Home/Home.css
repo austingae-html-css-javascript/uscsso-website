@@ -5,7 +5,6 @@
   Parent Div's Width = Child Div's Width + Padding + Border + Margin
   375px = 350px + 0px + 0px + margin: 0rem auto 0rem auto, so (12.5px + 12.5px) 
   */
-
   text-align: center;
 }
 
@@ -158,4 +157,50 @@
 
 .articles-projects__button--margin-right {
   margin-right: 3rem;
+}
+
+.contact-us {
+  width: 350px;
+  margin: 0rem auto 0rem auto;
+  
+  text-align: center;
+}
+
+.contact-us__title {
+  margin-bottom: 1.3rem;
+}
+
+.contact-us__email-sentence {
+  margin-bottom: 1.3rem;
+}
+
+.contact-us__social-media {
+  margin-top: 1.3rem;
+}
+
+.contact-us__social-media-icon-margin-right {
+  margin-right: 1rem;
+}
+
+.contact-us__email-icon {
+  color: var(--black-color);
+}
+
+.contact-us__gw-engage-icon {
+  color: var(--gw-engage-color);
+}
+.contact-us__social-media-facebook-icon {
+  color: var(--facebook-color);
+}
+
+.contact-us__social-media-linkedin-icon {
+  color: var(--linkedin-color);  
+}
+
+.contact-us__social-media-instagram-icon {
+  color: var(--instagram-color);
+}
+
+.contact-us__social-media-twitter-icon {
+  color: var(--twitter-color);
 }

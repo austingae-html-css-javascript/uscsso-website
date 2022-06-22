@@ -79,9 +79,9 @@ const Home = () => {
 
           <div className='contact-us__social-media'>
             <p className='contact-us__social-media-title'>Follow Us on Social Media!</p>
-             <a className='contact-us__social-media-facebook-icon' href="https://www.facebook.com/USCSSO"><FontAwesomeIcon icon={ faFacebook } size="2x" /></a>
-             <a className='contact-us__social-media-linkedin-icon' href="https://www.linkedin.com/company/uscssogwu/"><FontAwesomeIcon icon={ faLinkedin } size="2x" /></a>
-             <a className='contact-us__social-media-instagram-icon' href="https://www.instagram.com/uschinasso/"><FontAwesomeIcon icon={ faInstagram } size="2x" /></a>
+             <a className='contact-us__social-media-facebook-icon contact-us__social-media-icon-margin-right' href="https://www.facebook.com/USCSSO"><FontAwesomeIcon icon={ faFacebook } size="2x" /></a>
+             <a className='contact-us__social-media-linkedin-icon contact-us__social-media-icon-margin-right' href="https://www.linkedin.com/company/uscssogwu/"><FontAwesomeIcon icon={ faLinkedin } size="2x" /></a>
+             <a className='contact-us__social-media-instagram-icon contact-us__social-media-icon-margin-right' href="https://www.instagram.com/uschinasso/"><FontAwesomeIcon icon={ faInstagram } size="2x" /></a>
              <a className='contact-us__social-media-twitter-icon' href ="https://twitter.com/uscsso"><FontAwesomeIcon icon={ faTwitter } size="2x" /></a>
           </div>
         </div>
