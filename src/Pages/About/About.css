@@ -17,12 +17,19 @@
 }
 
 .our-story__line {
-  width: 40%;
   margin: 0rem auto 0rem auto;
   margin-bottom: 1rem;
   border-style: solid;
   border-width: 0.1rem;
   color: var(--red-color);
+}
+
+.our-story__line--short-size {
+  width: 40%;
+}
+
+.our-story__line--long-size {
+  width: 80%;
 }
 
 .our-story__description {

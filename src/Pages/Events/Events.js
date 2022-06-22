@@ -12,12 +12,16 @@ import EventThree from "../../Images/EventsImages/us-china-comp-coop-africa.webp
 import EventTwo from "../../Images/EventsImages/energy.webp";
 import EventOne from "../../Images/EventsImages/climate-policy.webp";
 
+
+import UpComingEvent from '../../UpcomingEvent';
+
 const Events = () => {
   return (
     <main>
       <div className='event-container'>
         {/*UPCOMING EVENTS*/}
         <h2 className='event-container__title'>Upcoming Events</h2>
+        <UpComingEvent />
         <hr className='line'></hr>
         
         {/*PAST EVENTS*/}

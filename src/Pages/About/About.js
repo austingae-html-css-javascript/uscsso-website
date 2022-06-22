@@ -205,7 +205,7 @@ const About = () => {
     <main>
       <section className='our-story'>
         <h1 className='our-story__title'>Our Story</h1>
-        <hr className='our-story__line'></hr>
+        <hr className='our-story__line our-story__line--short-size'></hr>
         <p className='our-story__description our-story__description--rounded-corners-version-1'>Founded in February 2020 at the George Washington University, the US-China Strategic Studies Organization was built to address the lack of holistic and unbiased study of Sino-American relations.</p>
         <div className='our-story__bottom-container'>
           <p className='our-story__description our-story__description--rounded-corners-version-2'>Since its founding, the USCSSO has grown into a community of forward-thinking students analyzing, discussing, and building an understanding of US-China relations. Through weekly newsletters, events and community engagement, high-level research in various mediums, and a firm willingness to objectively analyze complex issues, USCSSO uplifts hardworking students and educates a wide audience on Sino-American relations.</p>
@@ -217,6 +217,7 @@ const About = () => {
 
       <section className='meet-our-team'>
         <h1 className='meet-our-team__title meet-our-team__title--large-size'>MEET OUR TEAM</h1>
+        <hr className='our-story__line our-story__line--long-size'></hr>
         
         <h2 className='meet-our-team__title meet-our-team-red-color'>Operations</h2>
         <p className='meet-our-team__description meet-our-team-red-color'>Manages all USCSSO behind-the-scene logistics. Apply to join our team <span><a className='meet-our-team-red-color' href={joinOurTeamLink}>here</a></span>.</p>

@@ -71,6 +71,8 @@ menu {
   After the .nav-bar__hamburger-menu-button clicked, left: 0%. Hence, menu shown on the screen.
   */
   left: -100%; 
+
+  z-index: 80;
 }
 
 

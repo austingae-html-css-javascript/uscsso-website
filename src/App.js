@@ -18,7 +18,7 @@ import './App.css';
 import logo from "./Images/uscsso-logo.png";
 
 /*Components*/
-import Home from "./Pages/Home";
+import Home from "./Pages/Home/Home";
 import Events from "./Pages/Events/Events";
 import OurWork from "./Pages/OurWork/OurWork";
 import About from "./Pages/About/About";
@@ -27,6 +27,7 @@ import Articles from "./Pages/OurWork/Articles/Articles";
 import Projects from "./Pages/OurWork/Projects/Projects";
 
 function App() {
+
   return (
     <Router basename="/uscsso-website">
       <nav>
