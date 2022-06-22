@@ -19,8 +19,8 @@ const Home = () => {
           <h4 className='org__short-description'>A platform for nonpartisan, objective, and student-centered research, analysis, and discussion of Sino-American competition.</h4>
           <div className='org__video-container'>
             <ReactPlayer className="org__video"
-            width="178px" 
-            height="100px" 
+            width="230px" 
+            height="140px"
             controls 
             url="https://video.wixstatic.com/video/679ced_2896021dfcc843fcb56d2d97608ece36/1080p/mp4/file.mp4"
             />
@@ -34,17 +34,17 @@ const Home = () => {
         <div className='our-values'>
           <h2 className='our-values__title'>Our Values</h2>
           <div className='our-values__container'>
-            <div className='our-values__value-container'>
-              <h3 className='our-values__value-title'>Nonpartisanship</h3>
-              <p className='our-values__value-description'>USCSSO is a nonpartisan organization in a highly partisan environment focused on delivering unbiased analysis of complex issues in US-China relations.</p>
+            <div className='our-values__value-container our-values__value-container--blue-color'>
+              <h3 className='our-values__value-title our-values--white-color'>Nonpartisanship</h3>
+              <p className='our-values__value-description our-values--white-color'>USCSSO is a nonpartisan organization in a highly partisan environment focused on delivering unbiased analysis of complex issues in US-China relations.</p>
             </div>
-            <div className='our-values__value-container'>
-              <h3 className='our-values__value-title'>Objectivity</h3>
-              <p className='our-values__value-description'>USCSSO aims to retain consistent objectivity by sourcing research from a wide variety of reputable locations, and refraining from the use of bias in analysis</p>
+            <div className='our-values__value-container our-values__value-container--red-color'>
+              <h3 className='our-values__value-title our-values--white-color'>Objectivity</h3>
+              <p className='our-values__value-description our-values--white-color'>USCSSO aims to retain consistent objectivity by sourcing research from a wide variety of reputable locations, and refraining from the use of bias in analysis</p>
             </div>
-            <div className='our-values__value-container'>
-              <h3 className='our-values__value-title'>Student-led</h3>
-              <p className='our-values__value-description'>USCSSO offers a platform for students to educate and become educated on the US-China relationship, while tailoring content to young professionals.</p>
+            <div className='our-values__value-container our-values__value-container--blue-color'>
+              <h3 className='our-values__value-title our-values--white-color'>Student-led</h3>
+              <p className='our-values__value-description our-values--white-color'>USCSSO offers a platform for students to educate and become educated on the US-China relationship, while tailoring content to young professionals.</p>
             </div>
           </div>
         </div>
@@ -60,8 +60,11 @@ const Home = () => {
       <section>
         <div className='articles-projects'>
           <h2 className='articles-projects__title'>Check Out Our Articles And Projects!</h2>
-          <button className='articles-projects__article-button'>Articles</button>
-          <button className='articles-projects__projects-button'>Projects</button>
+          <div className='articles-projects__button-container'>
+            <button className='articles-projects__button articles-projects__button--margin-right articles-projects__button--red-color'>Articles</button>
+            <button className='articles-projects__button articles-projects__button--blue-color'>Projects</button>
+          </div>
+          
         </div>
       </section>
 
