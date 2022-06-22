@@ -1,16 +1,26 @@
-import React from 'react'
+/*ReactJS*/
+import React from 'react';
+import ReactPlayer from 'react-player';
+import { useNavigate } from 'react-router-dom';
+
+
+/*Icons*/
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faSchool } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faLinkedin, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
-import ReactPlayer from 'react-player';
+
+/*Components*/
 import UpComingEvent from '../../UpcomingEvent';
 
+/*CSS Files*/
 import "../../Global.css";
 import "./Home.css";
 
 const Home = () => {
+  let navigate = useNavigate();
+
   return (
     <main>
       <header>
@@ -61,8 +71,12 @@ const Home = () => {
         <div className='articles-projects'>
           <h2 className='articles-projects__title'>Check Out Our Articles And Projects!</h2>
           <div className='articles-projects__button-container'>
-            <button className='articles-projects__button articles-projects__button--margin-right articles-projects__button--red-color'>Articles</button>
-            <button className='articles-projects__button articles-projects__button--blue-color'>Projects</button>
+            <button className='articles-projects__button articles-projects__button--margin-right articles-projects__button--red-color' onClick={() => {
+              navigate("../our-work/articles");
+            }}>Articles</button>
+            <button className='articles-projects__button articles-projects__button--blue-color' onClick={() => {
+              navigate("../our-work/projects");
+            }}>Projects</button>
           </div>
           
         </div>

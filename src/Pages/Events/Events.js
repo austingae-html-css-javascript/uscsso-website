@@ -21,8 +21,8 @@ const Events = () => {
       <div className='event-container'>
         {/*UPCOMING EVENTS*/}
         <h2 className='event-container__title'>Upcoming Events</h2>
-        <UpComingEvent />
         <hr className='line'></hr>
+        <UpComingEvent />
         
         {/*PAST EVENTS*/}
         <h2 className='event-container__title'>Past Events</h2>
